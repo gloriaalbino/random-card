@@ -1,0 +1,115 @@
+@charset "UTF-8";
+body {
+  background: green;
+}
+.centro{margin-left: auto;margin-right: auto; width: 300px;}
+.botonRefresh {
+  display: block;
+  width: 300px;
+  height: 50px;
+  background: rgb(247, 151, 72);
+  font-family: Arial;
+  text-decoration: none;
+  font-size: 25px;
+  line-height: 50px;
+  text-align: center;
+  color: #000000;
+  font-weight: bold;
+  border-radius: 5px;
+  box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
+  margin-top: 50px;
+  
+}
+.botonRefresh:hover {
+  background: #ffb274;
+  color: white;
+}
+
+.card {
+  width: 300px;
+  height: 440px;
+  border-radius: 15px;
+  background: white;
+  box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+.card p {
+  font: 150px/440px Arial, serif;
+  text-align: center;
+}
+
+.simbolo-corazones:before {
+  content: "♥";
+  font-size: 90px;
+  position: absolute;
+  top: 8px;
+  left: 20px;
+  color: red;
+}
+
+.simbolo-corazones:after {
+  content: "♥";
+  font-size: 90px;
+  position: absolute;
+  bottom: 8px;
+  right: 20px;
+  color: red;
+  transform: rotate(180deg);
+}
+
+.simbolo-diamantes:before {
+  content: "♦";
+  font-size: 90px;
+  position: absolute;
+  top: 8px;
+  left: 20px;
+  color: red;
+}
+
+.simbolo-diamantes:after {
+  content: "♦";
+  font-size: 90px;
+  position: absolute;
+  bottom: 8px;
+  right: 20px;
+  color: red;
+  transform: rotate(180deg);
+}
+
+.simbolo-espadas:before {
+  content: "♠";
+  font-size: 90px;
+  position: absolute;
+  top: 8px;
+  left: 20px;
+  color: black;
+}
+
+.simbolo-espadas:after {
+  content: "♠";
+  font-size: 90px;
+  position: absolute;
+  bottom: 8px;
+  right: 20px;
+  color: black;
+  transform: rotate(180deg);
+}
+
+.simbolo-trebol:before {
+  content: "♣";
+  font-size: 90px;
+  position: absolute;
+  top: 8px;
+  left: 20px;
+  color: black;
+}
+
+.simbolo-trebol:after {
+  content: "♣";
+  font-size: 90px;
+  position: absolute;
+  bottom: 8px;
+  right: 20px;
+  color: black;
+  transform: rotate(180deg);
+}
